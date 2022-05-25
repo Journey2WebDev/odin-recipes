@@ -1,3 +1,29 @@
+/* Universal selector; will be applied to all pages calling style.css */
 * {
-  background-color:darkgray;
+  background-color:dimgrey;
+}
+
+/* Type selector; will apply style to named element(s) */
+figure {
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  padding: 2px;
+  font-size: 12px;
+}
+
+a {
+  color: white;
+}
+
+
+/* Class selector */
+.title-text {
+  text-align: left;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 32px;
+  color:darkgoldenrod;
 }
